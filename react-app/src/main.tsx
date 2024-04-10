@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
-import 'bootstrap/dist/css/bootstrap.css';
+// ?import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Layout";
-import About from "./About";
-import Product from "./Products";
-import Login from "./Login";
-import Cart from "./Cart";
+import Layout from "./pages/Layout";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import Login from "./pages/Login";
+import Cart from "./pages/Cart";
 // import NotFound from "./NotFound";
 
 export default function App() {
@@ -15,10 +15,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route index element={<Product />} />
-          <Route index element={<About />} />
-          <Route index element={<Login />} />
-          <Route index element={<Cart />} />
+          <Route index element={<Products />} />
+          <Route path="about" element={<About />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="login" element={<Login />} />       
         </Route>
       </Routes>
     </BrowserRouter>
