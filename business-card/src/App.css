@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1A1B21;
+  ;
+  margin-top: 10px;
+  width: 317px;
+  height: 780px;
+  border-radius: 10px;
+
+}
+
+.image {
+  width: 317px;
+  height: 317px;
+  border-radius: 8px;
+  opacity: 0px;
+  overflow: hidden;
+
+}
+
+.name-cls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.intro-cls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.intro-cls h3, h2, p {
+  margin: 0;
+  padding: 2px 0px;
+}
+
+.intro-cls p {
+  color: #D1D5DB;
+  font-size: 12px;
+}
+.intro-cls h2 {
+  font-size: 30px;
+}
+.intro-cls h3 {
+  font-size: 18px;
+  color: rgb(160, 73, 12);
+  opacity: 0.6;
+}
+
+.intro-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-btn button {
+  margin: 15px 10px;
+}
+
+.intro-btn .btn-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 34px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  font-weight: bold;
+}
+.intro-btn .btn-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 34px;
+  top: 468px;
+  left: 283px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.about-interest {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.about-interest p, .interest-cls p {
+  font-size: 13px;
+  color: #D1D5DB;
+  opacity: 0.7;
+}
+
+.about-cls h2, .interest-cls h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.interest-cls {
+  margin-bottom: 30px;
+}
+.about-cls {
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 317px;
+  height: 64px;
+  top: 760px;
+  left: 116px;
+  gap: 0px;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0px;
+  background-color: #161619;
+}
+
+.img1, .img2, .img3, .img4 {
+  width: 25px;
+  height: 25px;
+  top: 779px;
+  left: 238px;
+  gap: 0px;
+  opacity: 0px;
+  background: #918E9B;
+  margin: 8px;
+  border-radius: 5px;
+}
